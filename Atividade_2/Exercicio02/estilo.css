@@ -1,0 +1,15 @@
+ol {
+    font-family: sans-serif;
+}
+
+
+li {
+    width: 150px;
+    color: orange;
+    list-style-type: none;
+    padding: 5px;
+    border-top: 2px solid black;
+    border-right: 5px solid orange;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;  
+}

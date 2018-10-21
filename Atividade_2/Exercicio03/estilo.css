@@ -1,0 +1,48 @@
+.bloco1{
+    border: 2px groove;
+    border-radius: 10px;
+    background-color: #6b798e;
+    text-align: justify;
+}
+
+p{
+    padding: 15px;
+}
+
+
+#text-cor{
+    color: #7c0303;
+}
+
+
+.bloco2{
+    border: 2px solid gray;
+    background-color: #969696;
+}
+
+
+.bloco3{
+    border: 2px ridge yellow;
+    background-color: #c7d0dd;
+}
+
+
+table{
+    width: 100%;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 5px;
+}
+
+
+th {
+    text-align: left;
+}
