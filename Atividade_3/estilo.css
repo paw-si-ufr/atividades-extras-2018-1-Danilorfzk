@@ -1,0 +1,137 @@
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header header header header aside aside'
+        'nav nav nav nav aside aside'
+        'section section main1 main1 aside aside'
+        'article article main2 main2 aside aside'
+        'article article main3 main3 aside aside'
+        'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+
+
+
+
+header { grid-area: header; background-color: #779db7;}
+nav { grid-area: nav; background-color: #779db7;}
+aside { grid-area: aside; background-color: #779db7;}
+section { grid-area: section; background-color: #779db7;}
+.main1{ grid-area: main1; }
+.main2{ grid-area: main2; }
+.main3{ grid-area: main3;  }
+footer{ grid-area: footer; }
+
+.main1,
+.main2,
+.main3{ 
+    background-color: #779db7; 
+    height: 300px;
+    padding: 15px;
+}
+
+header,
+nav,
+aside,
+section,
+article,
+.main1,
+.main2,
+.main3,
+footer{
+    border: 2px solid black;
+}
+
+article { grid-area: article; background-color: #779db7;}
+footer { grid-area: footer; background-color: #779db7;}
+
+header h1{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+img{
+    float: left;
+    width: 10%;
+    display: block;
+    padding: 40px;
+}
+
+
+nav ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #ad0303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #5b6d8c;
+}
+
+
+section ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #555;
+}
+
+
+section li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+section li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+
+section li:last-child {
+    border-bottom: none;
+}
+
+
+
+article{
+    height: 674px;
+}
+
+
+aside{
+    width: 200px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+
